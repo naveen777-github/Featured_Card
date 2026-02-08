@@ -1,0 +1,53 @@
+.featureCard {
+  width: min(520px, 92vw);
+  border-radius: 20px;
+  padding: 18px;
+  background: rgba(10, 14, 22, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.content {
+  border-radius: 16px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.iconWrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+}
+
+.title {
+  margin: 14px 0 6px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.desc {
+  margin: 0;
+  font-size: 14.8px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.ctaRow {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13.5px;
+}
+
+.ctaDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+}
